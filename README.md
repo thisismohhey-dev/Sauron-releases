@@ -17,7 +17,7 @@
 
 Sauron is a desktop client that brings sing-box and Xray, L2TP/IPsec, subscriptions, an interactive world map and leak protection together in one clean interface.
 
-> **Status: alpha (`0.2.0-alpha.11`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
+> **Status: alpha (`0.2.0-alpha.12`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
 
 ### Download
 
@@ -45,7 +45,7 @@ Windows SmartScreen may warn about an unknown publisher because the app is not c
 - **Routing rules** and a **domestic-sites bypass** list (e.g. `.ir` always direct).
 - **System tray** with a full right-click menu, launch at login, close-to-tray.
 - **Dark / light themes, English and Persian (RTL)**, phone-style layout in narrow windows.
-- **Smart server selection:** quality score from real tests (delay, jitter, success rate), modes and Connect to best.
+- **Smart server selection:** quality score from real tests (delay, jitter, success rate), optional speed test per server (about 4 MB), modes including High throughput, and Connect to best.
 - **Subscription history** with update diff (+ new, − removed, ~ changed) and rollback.
 - **Network doctor:** UDP / TLS / IPv6 / DNS-leak checks, Reset network, safe fixes with undo.
 - **Connection profiles** (Daily, Gaming, Streaming, Work, Privacy), usage reports, first-run setup wizard, XHTTP via Xray.
@@ -82,7 +82,7 @@ Screenshots use sample data only.
 
 ساوران یک کلاینت دسکتاپ است که sing-box و Xray، L2TP/IPsec، اشتراک‌ها، نقشه تعاملی جهان و محافظت در برابر نشت را در یک رابط ساده و زیبا کنار هم قرار می‌دهد.
 
-> **وضعیت: آلفا (`0.2.0-alpha.11`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
+> **وضعیت: آلفا (`0.2.0-alpha.12`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
 
 ### دانلود
 
@@ -110,7 +110,7 @@ Screenshots use sample data only.
 - **قوانین مسیریابی** و فهرست **عبور مستقیم سایت‌های داخلی** (مثلاً دامنه‌های `.ir` همیشه مستقیم).
 - **آیکون سینی سیستم** با منوی راست‌کلیک کامل، اجرای خودکار با ویندوز و بستن به سینی.
 - **تم تیره و روشن، زبان فارسی (راست‌به‌چپ) و انگلیسی**، و چیدمان موبایلی در پنجره‌های باریک.
-- **انتخاب هوشمند سرور:** امتیاز کیفیت از تست‌های واقعی (تأخیر، جیتر، نرخ موفقیت)، حالت‌های انتخاب و «اتصال به بهترین».
+- **انتخاب هوشمند سرور:** امتیاز کیفیت از تست‌های واقعی (تأخیر، جیتر، نرخ موفقیت)، تست سرعت اختیاری هر سرور (حدود ۴ مگابایت)، حالت‌های انتخاب از جمله توان عملیاتی بالا و «اتصال به بهترین».
 - **تاریخچه اشتراک** با گزارش تغییرات هر آپدیت و بازگردانی نسخه قبل.
 - **دکتر شبکه:** بررسی UDP / TLS / IPv6 / نشت DNS، ریست شبکه و راهکارهای امن با امکان بازگردانی.
 - **پروفایل‌های اتصال** (Daily، Gaming، Streaming، Work، Privacy)، گزارش مصرف، ویزارد اولین اجرا و XHTTP با Xray.

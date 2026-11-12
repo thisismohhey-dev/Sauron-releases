@@ -17,7 +17,7 @@
 
 Sauron is a desktop client that brings sing-box and Xray, L2TP/IPsec, subscriptions, an interactive world map and leak protection together in one clean interface.
 
-> **Status: alpha (`0.2.0-alpha.9`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
+> **Status: alpha (`0.2.0-alpha.10`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
 
 ### Download
 
@@ -49,6 +49,7 @@ Windows SmartScreen may warn about an unknown publisher because the app is not c
 - **Subscription history** with update diff (+ new, − removed, ~ changed) and rollback.
 - **Network doctor:** UDP / TLS / IPv6 / DNS-leak checks, Reset network, safe fixes with undo.
 - **Connection profiles** (Daily, Gaming, Streaming, Work, Privacy), usage reports, first-run setup wizard, XHTTP via Xray.
+- **Intelligent failover** (off by default) and a **Routing Studio** with rule priority, groups, conflict detection and a match simulator.
 - **Auto-update** from this repository (installed builds).
 - Secrets (subscription URLs, L2TP passwords) are encrypted with the OS keystore; logs redact links and credentials.
 
@@ -80,7 +81,7 @@ Screenshots use sample data only.
 
 ساوران یک کلاینت دسکتاپ است که sing-box و Xray، L2TP/IPsec، اشتراک‌ها، نقشه تعاملی جهان و محافظت در برابر نشت را در یک رابط ساده و زیبا کنار هم قرار می‌دهد.
 
-> **وضعیت: آلفا (`0.2.0-alpha.9`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
+> **وضعیت: آلفا (`0.2.0-alpha.10`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
 
 ### دانلود
 
@@ -112,6 +113,7 @@ Screenshots use sample data only.
 - **تاریخچه اشتراک** با گزارش تغییرات هر آپدیت و بازگردانی نسخه قبل.
 - **دکتر شبکه:** بررسی UDP / TLS / IPv6 / نشت DNS، ریست شبکه و راهکارهای امن با امکان بازگردانی.
 - **پروفایل‌های اتصال** (Daily، Gaming، Streaming، Work، Privacy)، گزارش مصرف، ویزارد اولین اجرا و XHTTP با Xray.
+- **جابه‌جایی هوشمند سرور** (پیش‌فرض خاموش) و **استودیوی مسیریابی** با اولویت قانون، گروه‌بندی، تشخیص تعارض و شبیه‌ساز تطبیق.
 - **به‌روزرسانی خودکار** از همین مخزن (نسخه‌های نصب‌شده).
 - اطلاعات حساس (لینک اشتراک، رمز L2TP) با کلیدساز سیستم‌عامل رمزنگاری می‌شود و لاگ‌ها لینک‌ها و اطلاعات ورود را پنهان می‌کنند.
 

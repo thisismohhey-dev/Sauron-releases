@@ -17,7 +17,7 @@
 
 Sauron is a desktop client that brings sing-box and Xray, L2TP/IPsec, subscriptions, an interactive world map and leak protection together in one clean interface.
 
-> **Status: alpha (`0.2.0-alpha.7`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
+> **Status: alpha (`0.2.0-alpha.9`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
 
 ### Download
 
@@ -26,8 +26,8 @@ Get the latest build from the [**Releases**](../../releases) page.
 | Platform | File |
 |---|---|
 | Windows 10/11 (x64) | `Sauron-Setup-<version>-x64.exe` (installer, no admin rights needed) or the portable `.zip` |
-| macOS | `.dmg` (Intel and Apple Silicon) — not signed yet, right-click → Open the first time |
-| Linux | `.AppImage` or `.deb` |
+| macOS | not available in this release yet |
+| Linux | not available in this release yet |
 
 ### Install (Windows)
 1. Download `Sauron-Setup-…-x64.exe` from the latest release.
@@ -45,6 +45,10 @@ Windows SmartScreen may warn about an unknown publisher because the app is not c
 - **Routing rules** and a **domestic-sites bypass** list (e.g. `.ir` always direct).
 - **System tray** with a full right-click menu, launch at login, close-to-tray.
 - **Dark / light themes, English and Persian (RTL)**, phone-style layout in narrow windows.
+- **Smart server selection:** quality score from real tests (delay, jitter, success rate), modes and Connect to best.
+- **Subscription history** with update diff (+ new, − removed, ~ changed) and rollback.
+- **Network doctor:** UDP / TLS / IPv6 / DNS-leak checks, Reset network, safe fixes with undo.
+- **Connection profiles** (Daily, Gaming, Streaming, Work, Privacy), usage reports, first-run setup wizard, XHTTP via Xray.
 - **Auto-update** from this repository (installed builds).
 - Secrets (subscription URLs, L2TP passwords) are encrypted with the OS keystore; logs redact links and credentials.
 
@@ -76,7 +80,7 @@ Screenshots use sample data only.
 
 ساوران یک کلاینت دسکتاپ است که sing-box و Xray، L2TP/IPsec، اشتراک‌ها، نقشه تعاملی جهان و محافظت در برابر نشت را در یک رابط ساده و زیبا کنار هم قرار می‌دهد.
 
-> **وضعیت: آلفا (`0.2.0-alpha.7`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
+> **وضعیت: آلفا (`0.2.0-alpha.9`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
 
 ### دانلود
 
@@ -85,8 +89,8 @@ Screenshots use sample data only.
 | سیستم‌عامل | فایل |
 |---|---|
 | ویندوز ۱۰/۱۱ (x64) | `Sauron-Setup-<version>-x64.exe` (نصب‌کننده، بدون نیاز به دسترسی ادمین) یا نسخه قابل‌حمل `.zip` |
-| مک | فایل `.dmg` (اینتل و اپل سیلیکون) — هنوز امضا نشده؛ بار اول راست‌کلیک ← Open |
-| لینوکس | `.AppImage` یا `.deb` |
+| مک | هنوز در این نسخه نیست |
+| لینوکس | هنوز در این نسخه نیست |
 
 ### نصب (ویندوز)
 ۱. فایل `Sauron-Setup-…-x64.exe` را از آخرین نسخه دانلود کنید.
@@ -104,6 +108,10 @@ Screenshots use sample data only.
 - **قوانین مسیریابی** و فهرست **عبور مستقیم سایت‌های داخلی** (مثلاً دامنه‌های `.ir` همیشه مستقیم).
 - **آیکون سینی سیستم** با منوی راست‌کلیک کامل، اجرای خودکار با ویندوز و بستن به سینی.
 - **تم تیره و روشن، زبان فارسی (راست‌به‌چپ) و انگلیسی**، و چیدمان موبایلی در پنجره‌های باریک.
+- **انتخاب هوشمند سرور:** امتیاز کیفیت از تست‌های واقعی (تأخیر، جیتر، نرخ موفقیت)، حالت‌های انتخاب و «اتصال به بهترین».
+- **تاریخچه اشتراک** با گزارش تغییرات هر آپدیت و بازگردانی نسخه قبل.
+- **دکتر شبکه:** بررسی UDP / TLS / IPv6 / نشت DNS، ریست شبکه و راهکارهای امن با امکان بازگردانی.
+- **پروفایل‌های اتصال** (Daily، Gaming، Streaming، Work، Privacy)، گزارش مصرف، ویزارد اولین اجرا و XHTTP با Xray.
 - **به‌روزرسانی خودکار** از همین مخزن (نسخه‌های نصب‌شده).
 - اطلاعات حساس (لینک اشتراک، رمز L2TP) با کلیدساز سیستم‌عامل رمزنگاری می‌شود و لاگ‌ها لینک‌ها و اطلاعات ورود را پنهان می‌کنند.
 

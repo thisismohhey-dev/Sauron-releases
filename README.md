@@ -17,7 +17,7 @@
 
 Sauron is a desktop client that brings sing-box and Xray, L2TP/IPsec, subscriptions, an interactive world map and leak protection together in one clean interface.
 
-> **Status: alpha (`0.2.0-alpha.13`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
+> **Status: alpha (`0.2.0-alpha.14`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
 
 ### Download
 
@@ -49,6 +49,7 @@ Windows SmartScreen may warn about an unknown publisher because the app is not c
 - **Subscription history** with update diff (+ new, − removed, ~ changed) and rollback.
 - **Network doctor:** UDP / TLS / IPv6 / DNS-leak checks, Reset network, safe fixes with undo.
 - **Connection profiles** (Daily, Gaming, Streaming, Work, Privacy), usage reports, first-run setup wizard, XHTTP via Xray.
+- **Sleep / network-change recovery:** the tunnel is checked after waking up or switching Wi-Fi/cable and reconnected to the same server if it died (kill switch stays on).
 - **Intelligent failover** (off by default) and a **Routing Studio** with rule priority, groups, conflict detection and a match simulator.
 - **Security center** (real protection states, engine integrity and signature checks, IPv6 exposure test, masked diagnostic report you review before sharing), **live connection inspector** and a **network assistant** that answers from real diagnostics.
 - **Auto-update** from this repository (installed builds).
@@ -82,7 +83,7 @@ Screenshots use sample data only.
 
 ساوران یک کلاینت دسکتاپ است که sing-box و Xray، L2TP/IPsec، اشتراک‌ها، نقشه تعاملی جهان و محافظت در برابر نشت را در یک رابط ساده و زیبا کنار هم قرار می‌دهد.
 
-> **وضعیت: آلفا (`0.2.0-alpha.13`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
+> **وضعیت: آلفا (`0.2.0-alpha.14`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
 
 ### دانلود
 
@@ -114,6 +115,7 @@ Screenshots use sample data only.
 - **تاریخچه اشتراک** با گزارش تغییرات هر آپدیت و بازگردانی نسخه قبل.
 - **دکتر شبکه:** بررسی UDP / TLS / IPv6 / نشت DNS، ریست شبکه و راهکارهای امن با امکان بازگردانی.
 - **پروفایل‌های اتصال** (Daily، Gaming، Streaming، Work، Privacy)، گزارش مصرف، ویزارد اولین اجرا و XHTTP با Xray.
+- **بازیابی بعد از خواب / تغییر شبکه:** بعد از بیدار شدن کامپیوتر یا عوض کردن وای‌فای/کابل، تونل بررسی می‌شود و اگر مرده باشد به همان سرور وصل می‌شود (کیل‌سوییچ روشن می‌ماند).
 - **جابه‌جایی هوشمند سرور** (پیش‌فرض خاموش) و **استودیوی مسیریابی** با اولویت قانون، گروه‌بندی، تشخیص تعارض و شبیه‌ساز تطبیق.
 - **مرکز امنیت** (وضعیت واقعی محافظت‌ها، بررسی یکپارچگی و امضای موتور، تست IPv6، گزارش عیب‌یابی ماسک‌شده که قبل از اشتراک‌گذاری می‌خوانید)، **بازرس زنده اتصال‌ها** و **دستیار شبکه** که از تشخیص‌های واقعی پاسخ می‌دهد.
 - **به‌روزرسانی خودکار** از همین مخزن (نسخه‌های نصب‌شده).

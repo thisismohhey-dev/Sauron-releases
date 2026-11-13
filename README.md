@@ -17,7 +17,7 @@
 
 Sauron is a desktop client that brings sing-box and Xray, L2TP/IPsec, subscriptions, an interactive world map and leak protection together in one clean interface.
 
-> **Status: alpha (`0.2.0-alpha.15`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
+> **Status: alpha (`0.2.0-alpha.17`).** It is under active development. Some parts have not been verified against live servers yet (see [Known limitations](#known-limitations)). Please report problems in the Issues tab.
 
 ### Download
 
@@ -52,7 +52,7 @@ Windows SmartScreen may warn about an unknown publisher because the app is not c
 - **Sleep / network-change recovery:** the tunnel is checked after waking up or switching Wi-Fi/cable and reconnected to the same server if it died (kill switch stays on).
 - **Intelligent failover** (off by default) and a **Routing Studio** with rule priority, groups, conflict detection and a match simulator.
 - **Security center** (real protection states, engine integrity and signature checks, IPv6 exposure test, masked diagnostic report you review before sharing), **live connection inspector** and a **network assistant** that answers from real diagnostics.
-- **Auto-update** from this repository (installed builds).
+- **Auto-update** from this repository (installed builds). Versions alpha.8 - alpha.15 could not update themselves: install alpha.17 once by hand.
 - Secrets (subscription URLs, L2TP passwords) are encrypted with the OS keystore; logs redact links and credentials.
 
 ### Screenshots
@@ -83,7 +83,7 @@ Screenshots use sample data only.
 
 ساوران یک کلاینت دسکتاپ است که sing-box و Xray، L2TP/IPsec، اشتراک‌ها، نقشه تعاملی جهان و محافظت در برابر نشت را در یک رابط ساده و زیبا کنار هم قرار می‌دهد.
 
-> **وضعیت: آلفا (`0.2.0-alpha.15`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
+> **وضعیت: آلفا (`0.2.0-alpha.17`).** برنامه در حال توسعه فعال است و بعضی بخش‌ها هنوز روی سرورهای واقعی کامل آزمایش نشده‌اند (بخش [محدودیت‌ها](#محدودیت‌ها) را ببینید). مشکلات را در بخش Issues گزارش کنید.
 
 ### دانلود
 
@@ -118,7 +118,7 @@ Screenshots use sample data only.
 - **بازیابی بعد از خواب / تغییر شبکه:** بعد از بیدار شدن کامپیوتر یا عوض کردن وای‌فای/کابل، تونل بررسی می‌شود و اگر مرده باشد به همان سرور وصل می‌شود (کیل‌سوییچ روشن می‌ماند).
 - **جابه‌جایی هوشمند سرور** (پیش‌فرض خاموش) و **استودیوی مسیریابی** با اولویت قانون، گروه‌بندی، تشخیص تعارض و شبیه‌ساز تطبیق.
 - **مرکز امنیت** (وضعیت واقعی محافظت‌ها، بررسی یکپارچگی و امضای موتور، تست IPv6، گزارش عیب‌یابی ماسک‌شده که قبل از اشتراک‌گذاری می‌خوانید)، **بازرس زنده اتصال‌ها** و **دستیار شبکه** که از تشخیص‌های واقعی پاسخ می‌دهد.
-- **به‌روزرسانی خودکار** از همین مخزن (نسخه‌های نصب‌شده).
+- **به‌روزرسانی خودکار** از همین مخزن (نسخه‌های نصب‌شده). نسخه‌های alpha.8 تا alpha.15 نمی‌توانستند خودشان را به‌روز کنند: alpha.17 را یک بار دستی نصب کنید.
 - اطلاعات حساس (لینک اشتراک، رمز L2TP) با کلیدساز سیستم‌عامل رمزنگاری می‌شود و لاگ‌ها لینک‌ها و اطلاعات ورود را پنهان می‌کنند.
 
 ### تصاویر

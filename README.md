@@ -42,7 +42,7 @@ Windows SmartScreen may warn about an unknown publisher because the app is not c
 - **Server tools:** real delay test, TCP ping, sort, connect to fastest, favorites, country flags.
 - **Interactive world map** showing your location, the real exit location (looked up through the tunnel) and a live route with up/down speeds.
 - **System proxy or TUN mode**, **kill switch**, **Net Shield** (ad/tracker blocking), DNS manager (DoH/DoT/UDP), IP-leak check.
-- **Routing rules** and a **domestic-sites bypass** list (e.g. `.ir` always direct).
+- **Routing Studio** (rule priority, groups, conflict detection, a match simulator, import / export) and a **domestic-sites bypass** list (e.g. `.ir` always direct) with search, select-all and bulk delete.
 - **System tray** with a full right-click menu, launch at login, close-to-tray.
 - **Dark / light themes, English and Persian (RTL)**, phone-style layout in narrow windows.
 - **Smart server selection:** quality score from real tests (delay, jitter, success rate), optional speed test per server (about 4 MB; optional automatic runs every 12 h while disconnected), modes including High throughput, and Connect to best.
@@ -59,8 +59,11 @@ Windows SmartScreen may warn about an unknown publisher because the app is not c
 
 | | |
 |---|---|
-| ![Light, Persian](screenshots/dashboard-light-fa.png) | ![Servers](screenshots/servers.png) |
-| ![Routing](screenshots/routing.png) | ![DNS](screenshots/dns.png) |
+| ![Connection source selector](screenshots/dashboard-selector.png) | ![Light theme, Persian](screenshots/dashboard-light-fa.png) |
+| ![Routing Studio](screenshots/routing.png) | ![Domestic sites: search, select, bulk delete](screenshots/bypass.png) |
+| ![Connection profiles](screenshots/profiles.png) | ![Security center](screenshots/security.png) |
+| ![Network assistant](screenshots/assistant.png) | ![Usage report](screenshots/usage.png) |
+| ![Update screen](screenshots/upd-3-download-b.png) | ![Update completed](screenshots/upd-6-completed.png) |
 
 Screenshots use sample data only.
 
@@ -108,7 +111,7 @@ Screenshots use sample data only.
 - **ابزار سرور:** تست تأخیر واقعی، پینگ TCP، مرتب‌سازی، اتصال به سریع‌ترین، علاقه‌مندی‌ها و پرچم کشورها.
 - **نقشه تعاملی جهان** با نمایش موقعیت شما، محل واقعی خروج ترافیک (از داخل تونل بررسی می‌شود) و مسیر زنده همراه با سرعت دانلود/آپلود.
 - **پروکسی سیستمی یا حالت TUN**، **کیل‌سوییچ**، **Net Shield** (مسدودسازی تبلیغات و ردیاب‌ها)، مدیریت DNS (‏DoH/DoT/UDP) و تست نشت IP.
-- **قوانین مسیریابی** و فهرست **عبور مستقیم سایت‌های داخلی** (مثلاً دامنه‌های `.ir` همیشه مستقیم).
+- **استودیوی مسیریابی** (اولویت قانون، گروه‌بندی، تشخیص تعارض، شبیه‌ساز تطبیق، ورودی/خروجی) و فهرست **عبور مستقیم سایت‌های داخلی** (مثلاً دامنه‌های `.ir` همیشه مستقیم) با جستجو، انتخاب همه و حذف گروهی.
 - **آیکون سینی سیستم** با منوی راست‌کلیک کامل، اجرای خودکار با ویندوز و بستن به سینی.
 - **تم تیره و روشن، زبان فارسی (راست‌به‌چپ) و انگلیسی**، و چیدمان موبایلی در پنجره‌های باریک.
 - **انتخاب هوشمند سرور:** امتیاز کیفیت از تست‌های واقعی (تأخیر، جیتر، نرخ موفقیت)، تست سرعت اختیاری هر سرور (حدود ۴ مگابایت؛ اجرای خودکار اختیاری هر ۱۲ ساعت هنگام قطع بودن)، حالت‌های انتخاب از جمله توان عملیاتی بالا و «اتصال به بهترین».
@@ -125,8 +128,11 @@ Screenshots use sample data only.
 
 | | |
 |---|---|
-| ![تم روشن، فارسی](screenshots/dashboard-light-fa.png) | ![سرورها](screenshots/servers.png) |
-| ![مسیریابی](screenshots/routing.png) | ![DNS](screenshots/dns.png) |
+| ![انتخاب‌گر منبع اتصال](screenshots/dashboard-selector.png) | ![تم روشن، فارسی](screenshots/dashboard-light-fa.png) |
+| ![استودیوی مسیریابی](screenshots/routing.png) | ![سایت‌های داخلی: جستجو، انتخاب و حذف گروهی](screenshots/bypass.png) |
+| ![پروفایل‌های اتصال](screenshots/profiles.png) | ![مرکز امنیت](screenshots/security.png) |
+| ![دستیار شبکه](screenshots/assistant.png) | ![گزارش مصرف](screenshots/usage.png) |
+| ![صفحه بروزرسانی](screenshots/upd-3-download-b.png) | ![پایان بروزرسانی](screenshots/upd-6-completed.png) |
 
 تصاویر فقط با داده‌های نمونه گرفته شده‌اند.
 
